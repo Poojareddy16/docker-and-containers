@@ -1,10 +1,14 @@
 # docker-and-containers
-Flask + Redis + Postgres (Docker Compose)
+Steps Followed
 
-A minimal cloud app that serves a Flask page backed by a Redis counter, with Postgres running alongside in the stack.
+Install & start Docker Desktop.
+Verified Docker engine is running.
 
-Prerequisites
+Create project structure (app.py, requirements.txt, Dockerfile, compose.yaml, README.md).
+Added Flask app using Redis for a visit counter.
 
-Docker Desktop (engine running)
-
-VS Code (optional)
+Add Python dependencies.
+'''
+# inside project folder
+echo -e "flask\nredis" > requirements.txt
+'''
